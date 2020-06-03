@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+</head>
+<style>
+.main{
+  background-color: grey;
+  color: white;
+  font-size: 20px;
+  font-family: cursive;
+  border-top-left-radius: 150px;
+
+}
+input{
+  width: 80%;
+  height: 30px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border: solid gainsboro 1px;
+  font-size: 30px;
+
+}
+
+button{
+  width: 50%;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+</style>
+<body>
+  <div class="main" style="max-width: 600px; margin: auto; text-align: center;">
+    <h1>Quiz</h1>
+    <label for="question1">Enter Your name</label><br>
+    <input type="text" value="" placeholder="" id="yourname"><br>
+    <hr>
+         <label for="question1">Qu1. What is the capital of Lagos</label><br>
+         <input type="text" value="" placeholder="" id="question1" ><br>
+
+         <label for="question1">Qu2. Corona virus came from which Country</label><br>
+         <input type="text" value="" placeholder="" id="question2"><br>
+
+        <label for="question1">Qu3. Who Like Money Pass, Man or Woman ?</label><br>
+        <input type="text" value="" placeholder="" id="question3"><br>
+
+        <label for="question1">Qu4. What is capital of oyo</label><br>
+        <input type="text" value="" placeholder="" id="question4"><br>
+
+        <label for="question1">Qu5. Lagos state governor first name is</label><br>
+        <input type="text" value="" placeholder="" id="question5"><br>
+        <button id="btn">Submit</button>
+
+        <div id="result"></div>
+    
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
